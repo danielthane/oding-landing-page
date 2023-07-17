@@ -1,0 +1,85 @@
+/* 
+COLOURS
+Dark Blue - #1f2937
+Header Text White - #F9FAF8  (Size 24px)
+Hero Main Text - #F9FAF8 (Size 48px - Extra Bold)
+Hero Secondary - #E5E7EB (Size 18px)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav Bar */
+nav{
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+.nav-list{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li{
+    font-size: 18px;
+    list-style: none;
+}
+
+nav h2{
+    font-size: 24px;
+}
+
+.nav-list li a,
+.nav-list li a:visited{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    padding: 6rem 6rem;
+    margin: 0 auto ;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.hero p{
+    color: #E5E7EB ;
+    margin-bottom: 2rem;
+}
+
+.hero button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    color: #F9FAF8;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.8rem 1.6rem;
+}
+
+.hero .left{
+    width: 500px;
+}
